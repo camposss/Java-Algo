@@ -52,15 +52,17 @@ public class Main {
 //        myList.insertLast(100000);
 //
 //        myList.displayList();
+//
+//        CircularLinkedList myList = new CircularLinkedList();
+//        myList.insertFirst(50);
+//        myList.insertFirst(50);
+//        myList.insertFirst(150);
+//        myList.insertFirst(50);
+//        myList.insertFirst(200);
+//        myList.insertFirst(300);
+//        myList.insertLast(100000);
 
-        CircularLinkedList myList = new CircularLinkedList();
-        myList.insertFirst(50);
-        myList.insertFirst(50);
-        myList.insertFirst(150);
-        myList.insertFirst(50);
-        myList.insertFirst(200);
-        myList.insertFirst(300);
-        myList.insertLast(100000);
+//        Did not copy all the methods for testing doubly linked lists
 
     }
     public static int listLength(Node node){ //must be static so we don't need to create an instance of the object

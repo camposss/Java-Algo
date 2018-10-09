@@ -6,6 +6,7 @@ public class Node {
 //    using a recursive instance class
     public int data;
     public Node next = null;
+    public Node previous;
 
     public void displayNode(){
         System.out.println("{ " + data + " } ");
