@@ -64,6 +64,7 @@ public class Main {
 
 //        Did not copy all the methods for testing doubly linked lists
 
+
     }
     public static int listLength(Node node){ //must be static so we don't need to create an instance of the object
         int counter = 0;
@@ -88,4 +89,21 @@ public class Main {
         }
         return result;
     }
+
+
+
+//    SEARCH ALGORITHM SECTION
+//    class method instead of instance method
+    public static int linearSearch(int[] a, int x){
+//        O(n)
+        for(int i = 0; i < a.length; i++){
+            if(a[i] == x){
+               return i;
+            }
+        }
+        return -1;
+    }
+// BINARY SEARCH GOOD FOR SORTED ARRAYS
+
+
 }
